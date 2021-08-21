@@ -243,12 +243,12 @@ void LinkedList::printList()
         {
             if(temp->next == NULL)
             {
-                cout << "(" << temp->key << ", " << temp->data << ")";
+                cout << "(" << temp->key << ", " << temp->data << ")" << endl << endl;
                 temp = temp->next;
             }
             else
             {
-                cout << "(" << temp->key << ", " << temp->data << ") <--> ";
+                cout << "(" << temp->key << ", " << temp->data << ") <--> " << endl << endl;
                 temp = temp->next;
             }
         }
